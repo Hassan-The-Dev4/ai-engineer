@@ -1,0 +1,42 @@
+{
+  "theme": "cyberpunk cityscape",
+  "createdAt": "2026-10-21T10:29:49.172Z",
+  "quality": "low",
+  "totalImages": 2,
+  "successful": 2,
+  "totalCostUsd": 0.013238,
+  "images": [
+    {
+      "file": "gpt-image-1_square_vivid.png",
+      "model": "openai/gpt-image-1",
+      "modelName": "GPT Image 1",
+      "sizeName": "square",
+      "requestedSize": "1024x1024",
+      "style": "vivid",
+      "prompt": "cyberpunk cityscape, hyper-real and dramatic, bold saturated colors, high contrast, cinematic lighting",
+      "quality": "low",
+      "actualSize": "1024x1024",
+      "fileSizeKB": 1373,
+      "generationSeconds": 51.977,
+      "tokens": 298,
+      "costUsd": 0.01101,
+      "createdAt": "2026-10-21T10:30:41.154Z"
+    },
+    {
+      "file": "gpt-image-1-mini_square_vivid.png",
+      "model": "openai/gpt-image-1-mini",
+      "modelName": "GPT Image 1 Mini",
+      "sizeName": "square",
+      "requestedSize": "1024x1024",
+      "style": "vivid",
+      "prompt": "cyberpunk cityscape, hyper-real and dramatic, bold saturated colors, high contrast, cinematic lighting",
+      "quality": "low",
+      "actualSize": "1024x1024",
+      "fileSizeKB": 1310,
+      "generationSeconds": 37.749,
+      "tokens": 298,
+      "costUsd": 0.002228,
+      "createdAt": "2026-10-21T10:30:26.927Z"
+    }
+  ]
+}
