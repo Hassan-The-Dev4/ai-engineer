@@ -1,0 +1,83 @@
+{
+  "topic": "Types of computers: hardware and software",
+  "title": "Types of Computers: Hardware and Software",
+  "createdAt": "2026-11-04T10:39:37.095Z",
+  "options": {
+    "tone": "educational",
+    "voice": "Charon",
+    "emotion": "excited",
+    "images": true,
+    "audio": true,
+    "help": false,
+    "topic": "Types of computers: hardware and software"
+  },
+  "totalCostUsd": 0.0062705999999999994,
+  "files": {
+    "article": "article.md",
+    "summary": "summary.txt",
+    "social": "social-posts.json",
+    "header": "header.png",
+    "thumbnail": "thumbnail.png",
+    "narration": "narration.wav"
+  },
+  "steps": {
+    "article": {
+      "status": "ok",
+      "model": "openai/gpt-4o-mini",
+      "seconds": 9.9,
+      "costUsd": 0.0004128
+    },
+    "summary": {
+      "status": "ok",
+      "model": "openai/gpt-4o-mini",
+      "seconds": 2.8,
+      "costUsd": 0.0001575
+    },
+    "social": {
+      "status": "ok",
+      "model": "openai/gpt-4o-mini",
+      "seconds": 2.6,
+      "costUsd": 0.0001323
+    },
+    "header": {
+      "status": "ok (after fallback)",
+      "model": "openai/gpt-image-1-mini",
+      "seconds": 17.6,
+      "costUsd": 0.003296,
+      "failedAttempts": [
+        {
+          "model": "openai/dall-e-3",
+          "attempt": 1,
+          "status": 404,
+          "error": "404 No model found for \"openai/dall-e-3\""
+        },
+        {
+          "model": "openai/gpt-image-1",
+          "attempt": 1,
+          "status": 400,
+          "error": "400 The model 'gpt-image-1' does not exist."
+        }
+      ]
+    },
+    "thumbnail": {
+      "status": "ok (after fallback)",
+      "model": "openai/gpt-image-1-mini",
+      "seconds": 20.5,
+      "costUsd": 0.002272,
+      "failedAttempts": [
+        {
+          "model": "openai/gpt-image-1",
+          "attempt": 1,
+          "status": 400,
+          "error": "400 The model 'gpt-image-1' does not exist."
+        }
+      ]
+    },
+    "narration": {
+      "status": "ok",
+      "model": "google/gemini-3.8-flash-lite-tts",
+      "seconds": 8.9,
+      "costUsd": null
+    }
+  }
+}
